@@ -1,15 +1,16 @@
-package com.rest.webservices.SpringWIthCloud.user;
+package com.rest.webservices.SpringWIthCloud.repository;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import org.springframework.stereotype.Component;
+import com.rest.webservices.SpringWIthCloud.user.User;
+import org.springframework.stereotype.Repository;
 
 
-@Component
-public class UserDAOService {
+@Repository
+public class UserDAORepository {
 	private static int count = 0;
 	private static List<User> users = new ArrayList<>();
 	static {
