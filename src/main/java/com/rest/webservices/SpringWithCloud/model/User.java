@@ -1,4 +1,4 @@
-package com.rest.webservices.SpringWIthCloud.user;
+package com.rest.webservices.SpringWithCloud.model;
 
 import java.time.LocalDate;
 

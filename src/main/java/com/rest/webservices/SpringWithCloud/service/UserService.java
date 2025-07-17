@@ -1,8 +1,8 @@
-package com.rest.webservices.SpringWIthCloud.service;
+package com.rest.webservices.SpringWithCloud.service;
 
-import com.rest.webservices.SpringWIthCloud.repository.UserDAORepository;
-import com.rest.webservices.SpringWIthCloud.user.User;
-import com.rest.webservices.SpringWIthCloud.user.exception.UserNotFoundException;
+import com.rest.webservices.SpringWithCloud.repository.UserRepository;
+import com.rest.webservices.SpringWithCloud.model.User;
+import com.rest.webservices.SpringWithCloud.exception.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -14,8 +14,8 @@ import java.util.List;
 @Service
 public class UserService {
     @Autowired
-    private UserDAORepository userRepo;
-    public UserService(UserDAORepository userRepo) {
+    private UserRepository userRepo;
+    public UserService(UserRepository userRepo) {
         this.userRepo = userRepo;
     }
 
@@ -33,8 +33,11 @@ public class UserService {
 
     public ResponseEntity<User> create(User user) {
         User id = userRepo.create(user);
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(id.getId()).toUri();
-        //		return ResponseEntity.created(null).build();
+        URI location = ServletUriComponentsBuilder
+                .fromCurrentRequest()
+                .path("/{id}")
+                .buildAndExpand(id.getId())
+                .toUri();
         return ResponseEntity.created(location ).build();
     }
 }

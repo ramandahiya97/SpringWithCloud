@@ -1,4 +1,4 @@
-package com.rest.webservices.SpringWIthCloud.user.exception;
+package com.rest.webservices.SpringWithCloud.exception;
 
 import java.time.LocalDate;
 

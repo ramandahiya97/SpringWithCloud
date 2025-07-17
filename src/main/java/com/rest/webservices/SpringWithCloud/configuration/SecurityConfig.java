@@ -1,6 +1,6 @@
-package com.rest.webservices.SpringWIthCloud.configuration;
+package com.rest.webservices.SpringWithCloud.configuration;
 
-import com.rest.webservices.SpringWIthCloud.JWT.JwtRequestFilter;
+import com.rest.webservices.SpringWithCloud.JWT.JwtRequestFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

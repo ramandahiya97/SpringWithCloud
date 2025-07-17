@@ -1,4 +1,4 @@
-package com.rest.webservices.SpringWIthCloud.utility;
+package com.rest.webservices.SpringWithCloud.utility;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

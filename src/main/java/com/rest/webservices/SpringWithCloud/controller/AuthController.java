@@ -1,7 +1,7 @@
-package com.rest.webservices.SpringWIthCloud.controller;
+package com.rest.webservices.SpringWithCloud.controller;
 
-import com.rest.webservices.SpringWIthCloud.utility.JwtUtil;
-import com.rest.webservices.SpringWIthCloud.user.AuthRequest;
+import com.rest.webservices.SpringWithCloud.utility.JwtUtil;
+import com.rest.webservices.SpringWithCloud.model.AuthRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

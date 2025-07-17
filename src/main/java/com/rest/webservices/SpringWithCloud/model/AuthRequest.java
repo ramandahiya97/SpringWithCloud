@@ -1,4 +1,4 @@
-package com.rest.webservices.SpringWIthCloud.user;
+package com.rest.webservices.SpringWithCloud.model;
 
 public class AuthRequest {
     private String username;

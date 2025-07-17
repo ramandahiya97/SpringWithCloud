@@ -1,6 +1,6 @@
-package com.rest.webservices.SpringWIthCloud.JWT;
+package com.rest.webservices.SpringWithCloud.JWT;
 
-import com.rest.webservices.SpringWIthCloud.utility.JwtUtil;
+import com.rest.webservices.SpringWithCloud.utility.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

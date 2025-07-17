@@ -1,4 +1,4 @@
-package com.rest.webservices.SpringWIthCloud;
+package com.rest.webservices.SpringWithCloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

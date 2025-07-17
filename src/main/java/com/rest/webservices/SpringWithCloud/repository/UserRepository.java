@@ -1,16 +1,16 @@
-package com.rest.webservices.SpringWIthCloud.repository;
+package com.rest.webservices.SpringWithCloud.repository;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import com.rest.webservices.SpringWIthCloud.user.User;
+import com.rest.webservices.SpringWithCloud.model.User;
 import org.springframework.stereotype.Repository;
 
 
 @Repository
-public class UserDAORepository {
+public class UserRepository {
 	private static int count = 0;
 	private static List<User> users = new ArrayList<>();
 	static {
