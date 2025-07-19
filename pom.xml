@@ -82,6 +82,12 @@
 			<version>0.11.5</version>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId> <!-- reduces boilerplate code  such as getters,setter, const-->
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- Or latest -->
+			<scope>provided</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
