@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rest.webservices</groupId>
-	<artifactId>SpringWIthCloud</artifactId>
+	<artifactId>Inventory Management System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringWIthCloud</name>
-	<description>Udemy practice for SpringBoot </description>
+	<name>InventoryManagement</name>
+	<description>Inventory Management System using Spring boot</description>
 	<url/>
 	<licenses>
 		<license/>
